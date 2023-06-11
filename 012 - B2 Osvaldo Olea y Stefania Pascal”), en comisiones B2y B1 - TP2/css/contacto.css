@@ -1,0 +1,78 @@
+/* Estilos generales que vienen de <link rel="stylesheet" href="/Pagina web Tudai/css/style.css"> */
+
+
+/* Estilos para el formulario de contacto */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.contact {
+  padding: 2rem;
+  height: 100vh;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact input,
+.contact textarea {
+  resize: vertical;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+/* .contact #textarea {
+    
+    height: auto;
+  } */
+
+
+#caja {
+  background-color: #93ccdf;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  outline: none;
+  border-color: #14a8cf;
+}
+
+.contact button[type="submit"] {
+  background-color: #14a8cf;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.contact button[type="submit"]:hover {
+  background-color: #0c7fa5;
+}

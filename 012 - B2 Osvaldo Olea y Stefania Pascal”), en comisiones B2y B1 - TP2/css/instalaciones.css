@@ -1,0 +1,106 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Estilos de la sección Hero */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: #000000;
+  color: #fff;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+
+
+/* Estilos de la sección de Servicios */
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.services h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.service-box {
+  flex-basis: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.service-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos de la sección de instalaciones */
+.facilities h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.facilities-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.facility-box {
+  flex-basis: 100%;
+  margin-bottom: 30px;
+}
+
+.facility-box img {
+  width: 100%;
+  height: auto;
+}
+
+/* Estilos para escritorio */
+@media screen and (min-width: 768px) {
+  /* Estilos del header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Estilos de la sección de Servicios */
+  .services {
+    justify-content: space-between;
+  }
+
+  .service-box {
+    flex-basis: 30%;
+  }
+
+  /* Estilos de la sección de instalaciones */
+  .facilities-list {
+    justify-content: space-between;
+  }
+
+  .facility-box {
+    flex-basis: 45%;
+  }
+}

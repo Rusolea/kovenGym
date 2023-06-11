@@ -1,0 +1,195 @@
+/* Estilos generales */
+
+
+
+
+.hero {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero h3 {
+  font-size: 1.5rem;
+}
+
+/* Estilos del header */
+
+
+/* Estilos de la sección Acerca de nosotros */
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.about-content {
+  flex-basis: 50%;
+  padding: 10px;
+  text-align: justify;
+}
+
+.about-image {
+  flex-basis: 40%;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos de la sección de equipo */
+.team {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.team h2 {
+  margin-bottom: 30px;
+}
+
+.team ul {
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+.team li {
+  margin-bottom: 10px;
+}
+
+.entrenadores {
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.entrenadores h2 {
+  margin-bottom: 30px;
+}
+
+.entrenadores ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.entrenadores li {
+  margin-bottom: 10px;
+}
+
+.entrenadores li:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.entrenadores li:hover {
+  background-color: #ddd;
+}
+/* Estilos de la sección Hero */
+@media only screen and (min-width: 600px) {
+
+  .hero {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .hero h1 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero h3 {
+    font-size: 2rem;
+  }
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.about-content {
+  flex-basis: 50%;
+  padding: 10px;
+  text-align: justify;
+}
+
+.about-content p {
+  font-size: 2rem;
+}
+
+.about-image {
+  flex-basis: 40%;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos de la sección de equipo */
+.team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f8f8f8;
+  align-items: center;
+  padding: 20px;
+}
+
+.team h2 {
+  margin-bottom: 30px;
+}
+
+.team ul {
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+.team li {
+  margin-bottom: 10px;
+}
+
+.entrenadores {
+  padding: 50px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.entrenadores h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.entrenadores ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.entrenadores li {
+  margin-bottom: 10px;
+}
+
+.entrenadores li:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.entrenadores li:hover {
+  background-color: #ddd;
+}
+}

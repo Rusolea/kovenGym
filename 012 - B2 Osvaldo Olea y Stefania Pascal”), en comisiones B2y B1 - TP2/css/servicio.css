@@ -1,0 +1,164 @@
+/* Estilos generales */
+
+
+
+/* Estilos de la sección Hero */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+
+/* Estilos de la sección de Servicios */
+
+
+p {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Modificado */
+  padding: 2rem;
+}
+
+.services h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.service-box {
+  flex-basis: 30%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.service-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos del pie de página */
+
+
+
+
+/* css de la tabla*/
+
+.pricing {
+  padding: 3rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+@media only screen and (min-width: 600px) {
+
+  
+h2 {
+  text-align: center;
+}
+p {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.services {
+  display: flex;
+  /* padding: 2rem; */
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.services h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.entrenamiento-personal {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.service-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos del pie de página */
+
+
+
+
+/* css de la tabla*/
+
+.pricing {
+  padding: 3rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+}
