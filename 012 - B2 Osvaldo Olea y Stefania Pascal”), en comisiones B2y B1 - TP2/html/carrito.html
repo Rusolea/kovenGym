@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/carrito.css">
+
+    <title>Carrito</title>
+</head>
+
+<body>
+    <header>
+        <div class="hamburguesa">
+            <a href="/html/index.html">
+                <img src="/assets/img/Ruso_logo_gym_.png" alt="Logotipo del Gimnasio">
+            </a>
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <nav class="menu">
+            <ul class="navigation">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="/html/quienesSomos.html">Acerca de nosotros</a></li>
+                <li><a href="/html/servicios.html">Servicios</a></li>
+                <li><a href="/html/instalaciones.html">Instalaciones</a></li>
+                <li><a href="/html/contacto.html">Contacto</a></li>
+                <li><a href="/html/carrito.html" class="active">Carrito</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Panel de control de stock para administrador</h1>
+            </div>
+        </section>
+        <section class="table-section">
+            
+            <button id="add-multiple-items">Agregar 3 ítems</button>
+            <form id="add-item-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="price">Precio:</label>
+                <input type="number" id="price" name="price" required>
+                <label for="quantity">Cantidad:</label>
+                <input type="number" id="quantity" name="quantity" required>
+                <button type="submit">Agregar</button>
+                <button id="clear-table">Vaciar Tabla</button>
+            </form>
+            <table id="item-table">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Los elementos de la tabla se generarán dinámicamente con JavaScript -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="/javascripts/carrito.js"></script>
+
+
+</body>
+
+</html>
